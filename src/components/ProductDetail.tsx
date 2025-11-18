@@ -30,7 +30,7 @@ const ProductDetail = ({ product, isOpen, onClose, whatsappNumber }: ProductDeta
 
   return (
     <Dialog open={isOpen} onOpenChange={onClose}>
-      <DialogContent className="max-w-2xl mx-4 max-h-[90vh] overflow-y-auto">
+      <DialogContent className=" w-[95vw] mx-auto  overflow-y-hidden sm:max-w-xl md:max-w-2xl">
         <DialogHeader>
           <DialogTitle className="text-2xl">{product.name}</DialogTitle>
         </DialogHeader>
@@ -41,7 +41,7 @@ const ProductDetail = ({ product, isOpen, onClose, whatsappNumber }: ProductDeta
           </div>
           <div className="space-y-3">
             <p className="text-3xl font-bold text-primary">{product.price}</p>
-            <p className="text-muted-foreground leading-relaxed">{product.description}</p>
+            <p className="text-mutee}d-foreground leading-relaxed">{product.description}</p>
           </div>
 
           {/* Menggunakan Custom WhatsApp Button yang baru */}
