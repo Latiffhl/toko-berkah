@@ -15,30 +15,30 @@ interface Testimonial {
 const testimonials: Testimonial[] = [
   {
     id: 1,
+    name: 'Azzahra',
+    rating: 5,
+    comment: 'Toko terpercaya dengan produk lokal pilihan. Kualitas terjamin dan harga bersahabat.',
+    photoPlaceholder: true,
+  },
+  {
+    id: 2,
     name: 'Siti Markonah',
     rating: 4,
     comment: 'Produk berkualitas dengan harga terjangkau. Pelayanan ramah dan cepat. Sangat puas dengan pembelian saya!',
     photoPlaceholder: true,
   },
   {
-    id: 2,
+    id: 3,
     name: 'Jamaludin',
     rating: 5,
     comment: 'Sudah langganan di sini bertahun-tahun. Produk selalu fresh dan original. Highly recommended!',
     photoPlaceholder: true,
   },
   {
-    id: 3,
-    name: 'Ahmad Yani',
+    id: 4,
+    name: 'Ahmad Faisal',
     rating: 5,
     comment: 'Pengiriman cepat dan packaging rapi. Produk sesuai deskripsi. Pasti akan order lagi!',
-    photoPlaceholder: true,
-  },
-  {
-    id: 4,
-    name: 'Azzahra',
-    rating: 5,
-    comment: 'Toko terpercaya dengan produk lokal pilihan. Kualitas terjamin dan harga bersahabat.',
     photoPlaceholder: true,
   },
 ];
