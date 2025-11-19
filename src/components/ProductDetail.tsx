@@ -1,6 +1,6 @@
 import { Dialog, DialogContent, DialogHeader, DialogTitle } from '@/components/ui/dialog';
-import CustomWhatsAppButton from './CustomWhatsAppButton'; // Sesuaikan path import jika perlu
-// Hapus import { Button } dari Shadcn karena sudah diganti
+import CustomWhatsAppButton from './CustomWhatsAppButton';
+
 import { MessageCircle } from 'lucide-react';
 
 interface Product {
@@ -30,7 +30,7 @@ const ProductDetail = ({ product, isOpen, onClose, whatsappNumber }: ProductDeta
 
   return (
     <Dialog open={isOpen} onOpenChange={onClose}>
-      <DialogContent className=" w-[95vw] mx-auto  overflow-y-hidden sm:max-w-xl">
+      <DialogContent className=" w-[95vw] mx-auto rounded-lg overflow-y-hidden sm:max-w-xl">
         <DialogHeader>
           <DialogTitle className="text-2xl">{product.name}</DialogTitle>
         </DialogHeader>
