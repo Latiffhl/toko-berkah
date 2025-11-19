@@ -30,7 +30,7 @@ const ProductDetail = ({ product, isOpen, onClose, whatsappNumber }: ProductDeta
 
   return (
     <Dialog open={isOpen} onOpenChange={onClose}>
-      <DialogContent className=" w-[95vw] mx-auto  overflow-y-hidden sm:max-w-xl md:max-w-2xl">
+      <DialogContent className=" w-[95vw] mx-auto  overflow-y-hidden sm:max-w-xl">
         <DialogHeader>
           <DialogTitle className="text-2xl">{product.name}</DialogTitle>
         </DialogHeader>
